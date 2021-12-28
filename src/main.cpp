@@ -129,7 +129,7 @@ int main ( int argc, char** argv )
         if ( ( !strcmp ( argv[i], "--version" ) ) || ( !strcmp ( argv[i], "-v" ) ) )
         {
             qCritical() << qUtf8Printable ( GetVersionAndNameStr ( false ) );
-            exit ( 1 );
+            exit ( 0 );
         }
 
         // Common options:
